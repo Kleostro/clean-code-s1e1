@@ -47,11 +47,11 @@ li,
 h3 {
   margin:0;
   padding: 0px;
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -155,12 +155,12 @@ input,button{
 
 /* Edit Task */
 .task-input {
-  display:none
+  display: none
 }
 
 .task-edit .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .new-task__input {
@@ -172,5 +172,5 @@ input,button{
 }
 
 .task-edit .completed-tasks__name {
-  display:none;
+  display: none;
 }
