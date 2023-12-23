@@ -47,6 +47,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="btn task-btn-delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.alt = 'remove';
     deleteButtonImg.className='task-img-delete';
     deleteButton.appendChild(deleteButtonImg);
 
@@ -124,6 +125,7 @@ var taskCompleted=function(){
 
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
+    this.nextSibling.nextSibling.className = 'completed-tasks__name';
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
