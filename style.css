@@ -131,7 +131,7 @@ button{
 }
 
 .task-name,
-.completed-tasks__name {
+.completed-tasks-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -153,7 +153,7 @@ button{
 }
 
 /* Completed */
-.completed-tasks__name {
+.completed-tasks-name {
   text-decoration: line-through;
   color: #888;
 }
@@ -176,6 +176,6 @@ button{
   display: none;
 }
 
-.task-edit .completed-tasks__name {
+.task-edit .completed-tasks-name {
   display: none;
 }
